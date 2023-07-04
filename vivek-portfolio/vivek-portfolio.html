@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> vivek - developer portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">">
+    <style>
+        *{
+
+            margin: 0;
+            padding: 0;
+        }
+        body{
+
+            background-color: rgb(0, 1, 7);
+            color: bisque;
+            
+        }
+        nav{
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(89, 92, 91);
+            height: 60px;
+        }
+        nav ul{
+
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+
+            list-style: none;
+            margin: 0 25px;
+        }
+        nav ul li a {
+
+            text-decoration: none;
+            color: aliceblue;
+        }
+        nav ul li a:hover{
+
+            color: rgb(9, 164, 230);
+            font-size: 1.2rem;
+
+
+        }
+        .left{
+
+            font-size: 1.7rem;
+        }
+        .firstsection{
+
+           display: flex;
+           justify-content: space-around;
+           margin: 100px 0;
+           align-items: center;
+        }
+        .firstsection > div{
+
+          
+           width: 30%;
+        }
+        .leftsection{
+
+           
+           
+            font-size: 3rem;
+            margin: 45px;
+        }
+        .rightsection{
+
+           width: 20%;
+           margin: 50px;
+           
+        }
+        .red {
+
+            color: rgb(232, 18, 61);
+        }
+
+        .intro{
+
+            font-size: 1.5rem;
+        }
+        .developer{
+
+            font-size: 3rem;
+        }
+        #element{
+
+            color: rgb(232, 18, 61);
+        }
+        .nit{
+
+            color: rgb(232, 18, 61);
+        }
+        main hr {
+
+            border: 0;
+            height: 1px;
+            background-color: red;
+            margin: 80px 180px;
+        }
+        .secondsection{
+
+            
+           max-width: 80vw;
+            height: 80vh;
+            margin: auto;
+            
+        }
+        .secondsection h1 {
+
+           
+            font-size: 2rem;
+            display: flex;
+            justify-content: space-around;
+           
+          
+        }
+        .secondsection .box {
+
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 100px 0px;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .secondsection .verticle {
+
+            background-color: white;
+            height: 80px;
+            width: 2px;
+        }
+        .verticle-heading  {
+
+            margin-left: 10px;
+            font-size: 1.5rem;
+            position: relative;
+            top: 100px;
+            width: 150px;
+            color: rgb(255, 196, 0);
+           
+        }
+        .verticle-info {
+
+            position: relative;
+            top: 120px;
+            width: 150px;
+            font-style: italic;
+            color: rgb(60, 255, 0);
+           
+        }
+        .thirdsection{
+
+           height: 60vh;
+           margin: auto;
+        }
+        .thirdsection h1 {
+
+            justify-content: space-around;
+            display: flex;
+            font-size: 2rem;
+        }
+        .thirdsection hr {
+
+            background-color: rgb(5, 249, 78);
+        }
+        .thirdsection .verticle-line {
+
+            background-color: rgb(99, 3, 3);
+            height: 28vh;
+            width: 3px;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 600px;
+            margin-top: 40px;
+
+
+        }
+        .thirdsection .verticle-line ul{
+
+            margin-left: 250px;
+           
+            font-size: 1.7rem;
+        }
+        .skills {
+
+            font-style: italic;
+            color: rgb(254, 199, 1);
+        }
+        .btn {
+
+            padding: 8px 0px;
+            border: 2px solid rgb(82, 89, 230);
+            background-color: rgb(132, 133, 129);
+            font-size: 1.2rem;
+            border-radius: 8px;
+        }
+        footer{
+
+            background-color: rgb(66, 60, 60);
+            height: 310px;
+        }
+        .footer{
+
+            padding: 40px 40px;
+            margin-left: 150px;
+            justify-content: space-evenly;
+            display: flex;
+        }
+        .footer ul{
+
+            margin-left: 250px;
+        }
+        .footer-third{
+
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .footer-third ul li {
+
+            list-style: none;
+        }
+        .footer-third .insta {
+
+            height: 30px;
+            width: 30px;
+        }
+        .footer-third .twitter {
+
+            height: 30px;
+            width: 30px;
+        }
+        footer .footer-textcenter {
+
+            align-items: center;
+            margin-left: 500px;
+            color: gray;
+        }
+        .main{
+
+            height: 500px;
+            width: 500px;
+
+
+        }
+       
+
+        
+        
+       
+      
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="left"> Vivek - portfolio </div>
+           <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+              
+                <li><a href="/">About</a></li>
+                
+                <li><a href="/">Service</a></li>
+                
+                <li><a href="/">Projects</a></li>
+                
+                <li><a href="/">Contact me</a></li>
+            </ul>
+           </div>
+        </nav>
+    </header>
+    <main>
+       
+        <section class="firstsection">
+          
+       
+           
+            <div class="leftsection">
+                Hii ! i m <span class="red">vivek chaturvedi</span>
+               <div class="intro">
+                and i am a B.tech 3rd year student  from <span class="nit"> NIT jalandhar </span>and i am a passionate 
+                <div class="developer"> 
+                   <span id="element"></span>
+
+                </div>
+               </div>
+               <button class="btn">Download resume</button>
+               <button class="btn">visit Github</button>
+            </div>
+            <div class="rightsection">
+                <img src="monu.png" alt="" class="main">
+                
+            </div>
+           
+        </section>
+
+        <hr>
+
+        <section class="secondsection">
+
+            <h1> Acheviements </h1>
+
+            <div class="box">
+                <div class="verticle">
+                    <div class="verticle-heading">
+                         10th Board (2016-2018) 
+                    </div>
+                    <div class="verticle-info">
+                        i have completed my 10th board in 2018 from Christ chruch diosecan school , patna
+                        under CBSE curriculum and i got 80% marks.
+                    </div>
+                </div>
+                <div class="verticle">
+                    <div class="verticle-heading">
+                        12th Board (2018-2020)
+                    </div>
+                    <div class="verticle-info">
+                        i have completed my 12th Board in 2020 from Himalayans international school , patna
+                        under CBSE curriculum and i got 90% marks. this year i appear first time for JEE exam
+                        but due to unsatisfied percentile and decided to take drop. 
+                         
+                    </div>
+                </div>
+                <div class="verticle">
+                    <div class="verticle-heading">Drop year (2020-2021)</div>
+                    <div class="verticle-info">This is my drop year and so called year of stress and struggle.
+                        by the sweat and hard work of 1 year i got 96.8 %ile in JEE mains.
+
+                        
+                    </div>
+                </div>
+                <div class="verticle">
+                    <div class="verticle-heading">
+                        B.tech from (2021-2025)
+                    </div>
+                    <div class="verticle-info">
+                        currently i am pursuing B.tech from Nit jalandhar in instrumentation and control 
+                        enggneering but i have rich interest in coding. 
+                    </div>
+                </div>
+                <div class="verticle"></div>
+
+            </div>
+
+           
+
+        </section>
+
+        <section class="thirdsection">
+
+            <hr>
+            <h1> My Skills </h1>
+            <div class="verticle-line">
+                <ul>
+                    <li class="skills">HTML/CSS/JS</li>
+                    <br>
+                    <li class="skills">C/C++</li>
+                    <br>
+                    <li class="skills">Python</li>
+                    <br>
+                    <li class="skills">DSA</li>
+                </ul>
+
+            </div>
+        </section>
+
+       
+    </main>
+
+    <footer>
+
+       <div class="footer">
+        <div class="footer-first">
+            <h3>vivek developer portfolio :</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <br>
+                <li>About</li>
+                <br>
+                <li>Contact me</li>
+                <br>
+                <li>my projects</li>
+            </ul>
+        </div>
+        <div class="footer-third">
+             <ul>
+                <li>
+                    follow me on :
+                </li>
+                <br><br>
+                <img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_640.jpg" alt="" class="insta">
+                
+                <li>instagram </li>
+                <br><br>
+               <img src="https://cdn.pixabay.com/photo/2020/07/07/11/26/linkedin-5380185_1280.png" alt="" class="twitter">
+                <li>Linkdin</li>
+
+               
+             </ul>
+        </div>
+    
+      </div>
+      <div class="footer-textcenter">
+        Copyright &#169; www.vivekportfolios.com | All rights are reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['comptetive coder and' ,  'Web developer.'],
+          typeSpeed: 50,
+        });
+      </script>
+    
+</body>
+</html>
